@@ -1,0 +1,156 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9ff;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #4a90e2, #7b4397);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Sections */
+.section {
+    padding: 60px 0;
+    background-color: #fff;
+    border-bottom: 3px solid #e6e6e6;
+}
+
+.section:nth-child(even) {
+    background-color: #f5f5fa;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 2.2em;
+    color: #7b4397;
+    margin-bottom: 20px;
+}
+
+.section p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Services */
+.service-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.service-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-item h3 {
+    color: #4a90e2;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+button {
+    padding: 15px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #7b4397;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #4a90e2, #7b4397);
+    color: #fff;
+}
+
